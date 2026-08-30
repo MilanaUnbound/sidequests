@@ -487,7 +487,7 @@ export default function App() {
           Every side project<br />I've ever started.
         </h1>
         <p className="text-base text-[#666] leading-relaxed max-w-xl mb-10">
-          I'm Milana. This is where I track every side project I start — from the ones that took off to the ones that stalled halfway through — because I think the mess of trying things is more useful to look at than the highlight reel. If you've ever had ten ideas going at once and wondered if that was a problem, it's not, and this site is proof.
+          I'm Milana. This is where I track every side project I start, from the ones that took off to the ones that stalled halfway through because I think the mess of trying things is more useful to look at than the highlight reel. If you've ever had ten ideas going at once and wondered if that was a problem, it's not, and this site is proof.
         </p>
 
         {/* Stats row */}
