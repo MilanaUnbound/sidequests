@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  cursor: none;
+}
+
+* {
+  cursor: none !important;
+}
+
+body {
+  background-color: #F5F5F5;
+  color: #0A0A0A;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F5F5F5; }
+::-webkit-scrollbar-thumb { background: #C0C0C0; border-radius: 2px; }
+
+
+.quest-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.quest-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+@keyframes fill-bar {
+  from { width: 0; }
+}
+.progress-fill { animation: fill-bar 0.9s ease-out forwards; }
+
+.modal-backdrop { backdrop-filter: blur(6px); }
+
+input, textarea, select { outline: none; }
+input:focus, textarea:focus, select:focus {
+  box-shadow: 0 0 0 2px #0A0A0A;
+}
