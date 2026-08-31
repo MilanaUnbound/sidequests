@@ -180,6 +180,17 @@ const SEED_QUESTS: SideQuest[] = [
     media: [],
     createdAt: '2026-06-01',
   },
+  {
+    id: 'q15',
+    title: 'Solo backpacking a month in Australia',
+    description: 'After a burnout, I needed some fresh air, and I\'d always dreamt of seeing Whitehaven Beach. So one Monday I decided to book a flight leaving the following Tuesday. Oupsyyy. Best decision I ever made, it brought me back to life. I needed that, to feel like I was actually in charge of my own life, to do whatever I needed to do, to see how beautiful the world is and how lucky I am to even get to have an adventure like this. Gratitude came back, and that sense of bliss with it. Looking back, this is the trip that started everything. Every sidequest on this site exists because of the decision I made that Monday, it\'s where I learned I could just decide something and do it, and that\'s stayed with me since.',
+    status: 'finished',
+    progress: 100,
+    startDate: '2025-04',
+    tags: ['travel', 'solo', 'adventure', 'origin story'],
+    media: [],
+    createdAt: '2025-04-01',
+  },
 ];
 
 const STATUS_LABEL: Record<Status, string> = {
