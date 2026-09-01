@@ -67,7 +67,15 @@ const SEED_QUESTS: SideQuest[] = [
     progress: 100,
     startDate: '2024-12',
     tags: ['baking', 'food'],
-    media: [],
+    media: [
+      { id: 'sd1', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/01-dough.jpg`, caption: 'Dough on the counter, more still rising under the towels' },
+      { id: 'sd2', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/02-scoring.jpg`, caption: 'Wheat-stalk scoring, ready for the oven' },
+      { id: 'sd3', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/03-baked-boule.jpg`, caption: 'Out of the oven' },
+      { id: 'sd4', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/04-spiral.jpg`, caption: 'The spiral actually opened' },
+      { id: 'sd5', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/05-sesame-rolls.jpg`, caption: 'Sesame rolls' },
+      { id: 'sd6', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/06-butter-and-jam.jpg`, caption: 'Butter and jam, the real test' },
+      { id: 'sd7', type: 'image', url: `${import.meta.env.BASE_URL}sourdough/07-breakfast.jpg`, caption: 'Breakfast. Obviously.' },
+    ],
     createdAt: '2024-12-17',
   },
   {
