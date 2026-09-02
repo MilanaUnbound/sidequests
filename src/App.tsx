@@ -216,6 +216,17 @@ const SEED_QUESTS: SideQuest[] = [
     media: [],
     createdAt: '2026-06-01',
   },
+  {
+    id: 'q16',
+    title: 'Learning Arabic',
+    description: 'I\'ve always loved learning languages, I think it gives you a way to connect with people like nothing else can. Run something through Google Translate or DeepL, or have someone translate for you, and it\'s just not the same thing. Have you seen how people\'s faces light up when they can say a few words in your language, or when you do that for them, even just a little bit? Arabic specifically always fascinated me, so many great minds have come out of the Arabic world, and to me learning the language means picking up some of the same neural pathways that connect people who speak it. Then one day I was at a party surrounded by Palestinians, Lebanese, Jordanians and Syrians, and I have never felt so alive. It was out of this world, like I was meant to be exactly there and had to learn the language because of it. So in some mystical way, the Arabic found me. It happened so naturally after that, a few weeks later I found a teacher for the Levantine dialect, and here I am, still learning.',
+    status: 'started',
+    progress: 30,
+    startDate: '2025-05',
+    tags: ['language', 'arabic'],
+    media: [],
+    createdAt: '2025-05-19',
+  },
 ];
 
 const STATUS_LABEL: Record<Status, string> = {
